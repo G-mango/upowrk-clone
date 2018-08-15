@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'gotham';
+    src: url('fonts/GothamRoundedMedium_21022.otf') format('truetype');
+}
+body{
+    font-family: 'gotham';
+}
+a{
+    color: gray;
+    font-size:13px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.post_job{
+    background: #37a000;
+    color: #fff;
+    padding-top: 1px;
+}
+.min-font{
+    font-size: 1px
+}
+.spaced{
+   margin-left: 60px;
+}
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.upwork.com/ab/assets/Adquiro/162010b/wp/images/oded-lg@2x.1972bbc87a49.jpg");
+    height: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
