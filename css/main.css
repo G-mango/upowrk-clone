@@ -2,6 +2,10 @@
     font-family: 'gotham';
     src: url('fonts/GothamRoundedMedium_21022.otf') format('truetype');
 }
+@font-face {
+    font-family: 'gothamlight';
+    src: url('fonts/GothamRounded-Light.otf') format('truetype');
+}
 body{
     font-family: 'gotham';
 }
@@ -37,4 +41,115 @@ a{
     left: 20%;
     transform: translate(-50%, -50%);
     color: white;
+}
+.hero_text_btm{
+    position: absolute;
+    top: 80%;
+    left: 90%
+}
+.sm_txt{
+   font-family: 'gothamlight';
+}
+.greenplay{
+    color: #37a000;
+}
+.scopes{
+    height: 100px;
+}
+.scopes_btm{
+    margin-top: 100px;
+}
+.brd_col{
+    border-right: 1px solid #37a000;
+}
+.scopes_mark{
+    height: 100px;
+    border-right: 1px solid #37a000;
+}
+.professions{
+    border: 0.02px solid gray;
+    padding: 40px
+    
+}
+.icons_prof{
+    text-align: center;
+    margin-left: 50%;
+    font-weight:100;
+}
+.prof_text{
+    text-align: center;
+    font-family: 'gothamlight';
+}
+.all_cats{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px
+   
+}
+.txt_cats{
+     border: 0.3px solid #e0e0e0;
+    padding: 10px;
+    width: 20%;
+    text-align: center;
+    margin-left: 40%;
+    color: #37a000;
+    cursor: pointer;
+    
+}
+.txt_cats:hover{
+    border: 2px solid #10822E;
+}
+.desc_sec{
+    background: #f9f9f9;
+    margin-top: 50px;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+.hiw_sec{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 25px
+}
+.icon_hiw{
+    height: 135px;
+    width: 100%;
+
+}
+.pricing_tbl_header{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.marked_th{
+    background: #f9f9f9;
+    border: 0.5px solid #e0e0e0;
+}
+.btn_sm{
+    padding: 10px;
+    border: 2px solid #e0e0e0;
+    width: 50%;
+    font-size: 12px;
+    margin-left: 30%;
+    color: #37a000;
+    
+}
+.mk_1{
+    border-top: 10px solid #b0e44f;
+}
+.mk_2{
+    border-top: 10px solid #6fda44;
+}
+.mk_3{
+    border-top: 10px solid #37a000;
+}
+td,tr{
+    border: 1.5px solid #e0e0e0;
+}
+.tick{
+    text-align: center;
+     color: #37a000;
+    padding: 20px;
+}
+.tbl_txt{
+    font-size: 15px;
 }
